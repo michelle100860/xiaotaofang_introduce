@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Physical therapy scene illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9f0ff"/>
+      <stop offset="1" stop-color="#f0fff9"/>
+    </linearGradient>
+    <linearGradient id="mat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a9de0"/>
+      <stop offset="1" stop-color="#0b6ab9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <circle cx="130" cy="100" r="65" fill="#ffd9bb" opacity="0.8"/>
+  <circle cx="690" cy="430" r="110" fill="#b5f5de" opacity="0.6"/>
+  <rect x="120" y="300" width="560" height="120" rx="24" fill="url(#mat)"/>
+  <rect x="220" y="220" width="70" height="140" rx="30" fill="#ffb18c"/>
+  <rect x="290" y="230" width="120" height="38" rx="19" fill="#2d3748"/>
+  <rect x="390" y="250" width="160" height="30" rx="15" fill="#ffb18c"/>
+  <circle cx="250" cy="190" r="28" fill="#ffcfaa"/>
+  <rect x="500" y="190" width="62" height="180" rx="28" fill="#7fd3ff"/>
+  <rect x="545" y="220" width="96" height="24" rx="12" fill="#1f4f7a"/>
+  <circle cx="530" cy="175" r="24" fill="#ffd8bd"/>
+  <rect x="120" y="420" width="560" height="12" fill="#89a7c7" opacity="0.55"/>
+</svg>
