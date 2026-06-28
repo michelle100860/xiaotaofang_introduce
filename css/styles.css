@@ -52,7 +52,6 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; 
 .photo-card img{display:block; width:100%; height:220px; object-fit:cover; border-radius:10px}
 .photo-card figcaption{margin-top:.5rem; color:#1e293b; font-weight:600}
 .photo-card .micro-story{margin:.45rem 0 0 0; color:#475569; font-size:.92rem; line-height:1.45}
-.photo-card .photo-credit{margin:.4rem 0 0 0; color:#64748b; font-size:.78rem}
 .photo-card.warm{background:linear-gradient(160deg, #fff2e7 0%, #fff8f2 100%)}
 .photo-card.cool{background:linear-gradient(160deg, #e7fbff 0%, #f2fdff 100%)}
 .photo-card.mint{background:linear-gradient(160deg, #e8fff6 0%, #f4fffb 100%)}
