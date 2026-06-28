@@ -71,3 +71,22 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; 
 @media (max-width:560px){
 	.cards-grid{grid-template-columns:1fr}
 }
+
+/* Project page styles */
+.project-hero{background:linear-gradient(145deg,#ffffff 0%, #ecf5ff 55%, #e9fff4 100%); border-radius:14px; padding:1.4rem; box-shadow:0 10px 28px rgba(15,23,42,.07)}
+.project-hero h2{margin:0 0 .4rem 0}
+.project-sub{margin:0; color:#35516a; font-weight:600}
+
+.project-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; margin-top:1rem}
+.project-card{background:#fff; border-radius:12px; padding:1rem; box-shadow:0 8px 22px rgba(15,23,42,.06)}
+.project-card h3{margin:0 0 .5rem 0; font-size:1.05rem}
+.project-card p{margin:0; color:#334155; line-height:1.5}
+
+.project-photo-block{margin-top:1rem}
+.tips{margin-top:1rem}
+.tips ul{margin:.4rem 0 0 1.1rem; color:#334155}
+.tips li{margin:.3rem 0}
+
+@media (max-width:900px){
+	.project-grid{grid-template-columns:1fr}
+}
