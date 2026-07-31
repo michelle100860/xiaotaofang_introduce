@@ -82,6 +82,26 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; 
 .project-card h3{margin:0 0 .5rem 0; font-size:1.05rem}
 .project-card p{margin:0; color:#334155; line-height:1.5}
 
+.portfolio-page{max-width:960px}
+.eyebrow{margin:0 0 .4rem; color:var(--accent); font-size:.78rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase}
+.feature-card{margin-top:1rem}
+.project-details{display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; margin:0}
+.project-details div{border-left:3px solid var(--mint); padding-left:.7rem}
+.project-details dt{color:var(--muted); font-size:.8rem; font-weight:700; text-transform:uppercase}
+.project-details dd{margin:.25rem 0 0; color:#334155; line-height:1.45}
+.artifact-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; margin-top:1rem}
+.artifact-card{background:#fff; border-top:4px solid var(--accent-2); border-radius:8px; padding:1rem; box-shadow:0 8px 22px rgba(15,23,42,.06)}
+.artifact-card:nth-child(3n+2){border-color:var(--mint)}
+.artifact-card:nth-child(3n){border-color:var(--sun)}
+.artifact-card h3{margin:.35rem 0 .5rem; font-size:1.05rem}
+.artifact-card p{margin:0; color:#334155; line-height:1.5}
+.artifact-number{color:var(--accent); font-size:.78rem; font-weight:800; letter-spacing:.08em}
+.reflection-block{margin-top:1rem; background:#fff; border-radius:8px; padding:1.4rem; box-shadow:0 8px 22px rgba(15,23,42,.06)}
+.reflection-block h2{margin:.1rem 0 .75rem}
+.reflection-block p{color:#334155; line-height:1.7}
+.reflection-block p:last-child{margin-bottom:0}
+.long-reflection{margin-top:1rem}
+
 .project-photo-block{margin-top:1rem}
 .tips{margin-top:1rem}
 .tips ul{margin:.4rem 0 0 1.1rem; color:#334155}
@@ -89,4 +109,12 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; 
 
 @media (max-width:900px){
 	.project-grid{grid-template-columns:1fr}
+	.project-details{grid-template-columns:1fr}
+}
+
+@media (max-width:720px){
+	.site-header{align-items:flex-start; flex-direction:column; gap:.75rem}
+	.site-header nav{width:100%}
+	.nav{flex-wrap:wrap; gap:.5rem .85rem}
+	.artifact-grid{grid-template-columns:1fr}
 }
