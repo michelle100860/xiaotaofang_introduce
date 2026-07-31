@@ -89,12 +89,15 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; 
 .project-details div{border-left:3px solid var(--mint); padding-left:.7rem}
 .project-details dt{color:var(--muted); font-size:.8rem; font-weight:700; text-transform:uppercase}
 .project-details dd{margin:.25rem 0 0; color:#334155; line-height:1.45}
-.artifact-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; margin-top:1rem}
-.artifact-card{background:#fff; border-top:4px solid var(--accent-2); border-radius:8px; padding:1rem; box-shadow:0 8px 22px rgba(15,23,42,.06)}
-.artifact-card:nth-child(3n+2){border-color:var(--mint)}
-.artifact-card:nth-child(3n){border-color:var(--sun)}
-.artifact-card h3{margin:.35rem 0 .5rem; font-size:1.05rem}
-.artifact-card p{margin:0; color:#334155; line-height:1.5}
+.discussion-list{display:grid; gap:1rem; margin-top:1rem}
+.discussion-entry{background:#fff; border-left:4px solid var(--accent-2); border-radius:8px; padding:1.25rem 1.35rem; box-shadow:0 8px 22px rgba(15,23,42,.06)}
+.discussion-entry:nth-child(3n+2){border-color:var(--mint)}
+.discussion-entry:nth-child(3n){border-color:var(--sun)}
+.discussion-label{display:flex; align-items:center; gap:.55rem; color:var(--muted); font-size:.78rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase}
+.discussion-entry h3{margin:.4rem 0 .25rem; font-size:1.18rem}
+.discussion-prompt{margin:.2rem 0 .8rem; color:#35516a; font-style:italic; line-height:1.45}
+.discussion-entry > p:not(.discussion-prompt):not(.source-note){margin:.6rem 0 0; color:#334155; line-height:1.65}
+.source-note{margin:.8rem 0 0; color:var(--muted); font-size:.87rem; line-height:1.45}
 .artifact-number{color:var(--accent); font-size:.78rem; font-weight:800; letter-spacing:.08em}
 .reflection-block{margin-top:1rem; background:#fff; border-radius:8px; padding:1.4rem; box-shadow:0 8px 22px rgba(15,23,42,.06)}
 .reflection-block h2{margin:.1rem 0 .75rem}
@@ -116,5 +119,5 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; 
 	.site-header{align-items:flex-start; flex-direction:column; gap:.75rem}
 	.site-header nav{width:100%}
 	.nav{flex-wrap:wrap; gap:.5rem .85rem}
-	.artifact-grid{grid-template-columns:1fr}
+	.discussion-entry{padding:1rem}
 }
